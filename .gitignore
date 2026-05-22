@@ -1,0 +1,23 @@
+.env
+.streamlit/secrets.toml
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+outputs/
+
+/*.md
+!/README.md
+
+# Legacy extensionless files created by the old Windows filename bug.
+/Self-Attention LLMs in 2026
+/State of AGI in 2026
+
+.DS_Store
+Thumbs.db
